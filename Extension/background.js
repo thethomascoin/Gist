@@ -1,6 +1,6 @@
 // The URL where your Gist PWA is hosted.
 // IMPORTANT: You must change this to your actual deployed URL.
-const GIST_APP_URL = 'https://<YOUR_GIST_APP_URL_HERE>/';
+const GIST_APP_URL = 'https://thethomascoin.github.io/Gist//';
 
 // Function to create the context menu
 const createContextMenu = () => {
