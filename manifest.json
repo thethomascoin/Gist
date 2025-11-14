@@ -1,0 +1,31 @@
+{
+  "name": "Gist",
+  "short_name": "Gist",
+  "description": "An AI-powered content distiller and universal library to combat information overload.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#6200EE",
+  "icons": [
+    {
+      "src": "https://www.gstatic.com/images/branding/product/1x/g_color_32dp.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.gstatic.com/images/branding/product/1x/g_color_32dp.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
